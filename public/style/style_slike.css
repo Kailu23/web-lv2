@@ -103,7 +103,7 @@ a.image-popup-vertical-fit {
   opacity: 1;
 }
 
-.ligthbox {
+.lightbox  {
   position: fixed;
   top: 0;
   left: 0;
@@ -115,13 +115,13 @@ a.image-popup-vertical-fit {
   justify-content: center;
 }
 
-.ligthbox img {
+.lightbox img {
   max-width: 90%;
   max-height: 80%;
   border-radius: 10px;
 }
 
-.ligthbox:target {
+.lightbox:target {
   display: flex;
 }
 
